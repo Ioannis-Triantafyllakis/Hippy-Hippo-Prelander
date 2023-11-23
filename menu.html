@@ -1,0 +1,544 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Hippy Hippo-Φιξ</title>
+  <style>
+    body {
+      font-family: 'Courier', sans-serif;
+      background-color: #f4f4f4;
+      margin: 0;
+      padding: 0;
+    }
+
+    header {
+      background-color: #333;
+      color: #fff;
+      padding: 1em;
+      text-align: center;
+    }
+
+    section {
+      max-width: 800px;
+      margin: 20px auto;
+      padding: 20px;
+      background-color: #fff;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+
+    .menu-item {
+      display: flex;
+      justify-content: space-between;
+      align-items: center; /* Center items vertically */
+      border-bottom: 1px solid #ccc;
+      padding: 10px 0;
+    }
+
+    h2 {
+      margin: 0; /* Remove default margin */
+      margin-bottom: 5px;
+    }
+
+    .ingredients {
+      color: #555;
+    }
+
+    .price {
+      color: #333;
+      font-weight: bold;
+      padding: 5px;
+      white-space: nowrap;
+    }
+
+    .category-title{
+      margin: 1; /* Remove default margin */
+      margin-bottom: 15px;
+      font-size: 35px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 5vh; /* This ensures the full viewport height is covered */
+    }
+  </style>
+  
+</head>
+
+<body>
+  <header>
+    <h1>Hippy Hippo-Φιξ</h1>
+  </header>
+
+  <section>
+    <div>
+        <h1 class="category-title">Καφέδες</h1>
+    </div>
+
+    <div class="menu-item">
+      <div>
+        <h2>Espresso</h2>
+      </div>
+      <div class="price">1.60 €</div>
+    </div>
+
+    <div class="menu-item">
+      <div>
+        <h2>Espresso Americano</h2>
+
+      </div>
+      <div class="price">1.80 €</div>
+    </div>
+
+    <div class="menu-item">
+      <div>
+        <h2>Freddo Espresso</h2>
+      </div>
+      <div class="price">2.00 €</div>
+    </div>
+
+    <div class="menu-item">
+        <div>
+          <h2>Cappucino Latte Machiato</h2>
+        </div>
+        <div class="price">2.20 €</div>
+    </div>
+
+    <div class="menu-item">
+        <div>
+          <h2>Flat White</h2>
+        </div>
+        <div class="price">2.20 €</div>
+    </div>
+
+    <div class="menu-item">
+        <div>
+          <h2>Cappucino</h2>
+        </div>
+        <div class="price">2.00 €</div>
+    </div>
+
+    <div class="menu-item">
+        <div>
+          <h2>Freddo Cappucino</h2>
+        </div>
+        <div class="price">2.20 €</div>
+    </div>
+
+    <div class="menu-item">
+        <div>
+          <h2>Nes</h2>
+        </div>
+        <div class="price">1.80 €</div>
+    </div>
+
+    <div class="menu-item">
+        <div>
+          <h2>Frappe</h2>
+        </div>
+        <div class="price">1.80 €</div>
+    </div>
+
+    <div class="menu-item">
+        <div>
+          <h2>Φίλτρου</h2>
+        </div>
+        <div class="price">2.20 €</div>
+    </div>
+
+    <div class="menu-item">
+        <div>
+          <h2>Cold Brew</h2>
+        </div>
+        <div class="price">3.70 €</div>
+    </div>
+
+
+    <div>
+        <h1 class="category-title">Ροφήματα</h1>
+    </div>
+
+    <div class="menu-item">
+      <div>
+        <h2>Σοκολάτα</h2>
+      </div>
+      <div class="price">3.00 €</div>
+    </div>
+
+    <div class="menu-item">
+        <div>
+          <h2>Σοκολάτα Salty Caramel</h2>
+        </div>
+        <div class="price">3.00 €</div>
+      </div>
+
+    <div class="menu-item">
+      <div>
+        <h2>Σοκολάτα Ecuador 60% cocoa</h2>
+        <p class="ingredients">Ζεστή. Vegan με γάλα αμυγδάλου</p>
+      </div>
+      <div class="price">3.50 €</div>
+    </div>
+
+    <div class="menu-item">
+      <div>
+        <h2>Σοκολάτα 0% ζάχαρη</h2>
+      </div>
+      <div class="price">3.00 €</div>
+    </div>
+
+    <div class="menu-item">
+        <div>
+          <h2>Matcha Latte</h2>
+        </div>
+        <div class="price">4.50 €</div>
+    </div>
+
+    <div class="menu-item">
+      <div>
+        <h2>Cinnamon matcha</h2>
+      </div>
+      <div class="price">4.50 €</div>
+    </div>
+
+    <div class="menu-item">
+        <div>
+          <h2>Σπιτική λεμονάδα</h2>
+        </div>
+        <div class="price">2.50 €</div>
+    </div>
+
+    <div class="menu-item">
+        <div>
+          <h2>Σπιτική λεμονάδα με ginger</h2>
+        </div>
+        <div class="price">2.50 €</div>
+    </div>
+
+    <div class="menu-item">
+        <div>
+          <h2>Σπιτική λεμονάδα με φράουλα & δυόσμο</h2>
+        </div>
+        <div class="price">2.50 €</div>
+    </div>
+
+    <div class="menu-item">
+        <div>
+          <h2>Φυσικός χυμός πορτοκάλι</h2>
+        </div>
+        <div class="price">2.50 €</div>
+    </div>
+
+    <div class="menu-item">
+        <div>
+          <h2>Ice tea peach & ginger</h2>
+        </div>
+        <div class="price">2.20 €</div>
+    </div>
+
+    <div>
+        <h1 class="category-title">Τσάι</h1>
+    </div>
+
+    <div class="menu-item">
+      <div>
+        <h2>Τσάι Earl Grey</h2>
+      </div>
+      <div class="price">1.70 €</div>
+    </div>
+
+    <div class="menu-item">
+        <div>
+          <h2>Τσάι Young Hyson</h2>
+          <p class="ingredients">Οργανικό πράσινο τσάι Κευλάνης</p>
+        </div>
+        <div class="price">1.70 €</div>
+      </div>
+
+    <div class="menu-item">
+      <div>
+        <h2>Τσάι Rooibos</h2>
+        <p class="ingredients">Χωρίς καφείνη. Με κομμάτια μήλου, σταφυλιού & φράουλας</p>
+      </div>
+      <div class="price">1.70 €</div>
+    </div>
+
+    <div class="menu-item">
+        <div>
+          <h2>Τσάι Hakuma matcha mango</h2>
+        </div>
+        <div class="price">3.20 €</div>
+    </div>
+
+    <div>
+        <h1 class="category-title">Coffee cocktails</h1>
+    </div>
+
+    <div class="menu-item">
+      <div>
+        <h2>Cold fashioned</h2>
+        <p class="ingredients">Με καφέ cold brew, whisky & aromatic bitters</p>
+      </div>
+      <div class="price">5.50 €</div>
+    </div>
+
+    <div class="menu-item">
+        <div>
+          <h2>Negroni brew</h2>
+          <p class="ingredients">Με καφέ cold brew, vermouth, gin & Campari</p>
+        </div>
+        <div class="price">5.50 €</div>
+      </div>
+
+    <div>
+        <h1 class="category-title">Brunch</h1>
+    </div>
+
+    <div class="menu-item">
+      <div>
+        <h2>Yogi Bowl</h2>
+        <p class="ingredients">Με βιολογικό γιαούρτι, homemade granola, μέλι & φρούτα εποχής</p>
+      </div>
+      <div class="price">5.00 €</div>
+    </div>
+
+    <div class="menu-item">
+        <div>
+          <h2>White Omelette</h2>
+          <p class="ingredients">Με ασπράδια από 3 αυγά, μανιτάρια σωτέ & σπανάκι. Συνοδεύεται από ζυμωτό ψωμί</p>
+        </div>
+        <div class="price">7.50 €</div>
+      </div>
+
+    <div class="menu-item">
+      <div>
+        <h2>Croque Monsieur</h2>
+        <p class="ingredients">Με κρουασάν</p>
+      </div>
+      <div class="price">7.00 €</div>
+    </div>
+
+    <div class="menu-item">
+        <div>
+          <h2>Croque Madame</h2>
+          <p class="ingredients">Με κρουασάν</p>
+        </div>
+        <div class="price">7.50 €</div>
+    </div>
+
+    <div class="menu-item">
+      <div>
+        <h2>Fried eggs</h2>
+        <p class="ingredients">Με κρουασάν</p>
+      </div>
+      <div class="price">7.00 €</div>
+    </div>
+
+    <div class="menu-item">
+        <div>
+          <h2>Croque Madame</h2>
+          <p class="ingredients">2 αυγά τηγανητά. Συνοδεύεται από προζυμένιο ψωμί</p>
+        </div>
+        <div class="price">4.50 €</div>
+    </div>
+
+    <div class="menu-item">
+      <div>
+        <h2>Drunk sandwich</h2>
+        <p class="ingredients">Χωριάτικη μπαγκέτα με σιγομαγειρεμένο pulled prok σε μαύρη μπύρα, melted cheddar & σαλάτα φινόκιο με jalapenos</p>
+      </div>
+      <div class="price">8.50 €</div>
+    </div>
+
+    <div class="menu-item">
+        <div>
+          <h2>Avocado Scrambled</h2>
+          <p class="ingredients">Αυγά scrambled πάνω σε ζυμωτό ψωμί με smashed avocado & dressing lime & μέλι. Συνοδεύεται από δροσερή πράσινη σαλάτα</p>
+        </div>
+        <div class="price">8.00 €</div>
+    </div>
+
+    <div class="menu-item">
+      <div>
+        <h2>Morning Glory</h2>
+        <p class="ingredients">Κουλούρι Θεσσαλομίκης με soft scrambled eggs, καπνιστό βολάκι, χοιρομέρι & beurre noisette</p>
+      </div>
+      <div class="price">8.50 €</div>
+    </div>
+
+    <div class="menu-item">
+        <div>
+          <h2>Vegan Avocado Toast</h2>
+          <p class="ingredients">Φρέσκο ζυμωτό ψωμί με smashed avocado, καραμελωμένο κρεμμύδι, μανιτάρια σωτέ, αμύγδαλα & καρύδια καβουρδισμένα & dressing από γάλα αμυγδάλου</p>
+        </div>
+        <div class="price">7.50 €</div>
+    </div>
+
+    <div class="menu-item">
+      <div>
+        <h2>Classic Pancakes</h2>
+        <p class="ingredients">3 τεμάχια. Με Canadian Maple Syrup</p>
+      </div>
+      <div class="price">6.00 €</div>
+    </div>
+
+    <div class="menu-item">
+        <div>
+          <h2>Mini Choco Pancakes</h2>
+          <p class="ingredients">10 τεμάχια. Με σοκολάτα & χειροποίητη μαρμελάδα φρούτα του δάσους</p>
+        </div>
+        <div class="price">7.00 €</div>
+    </div>
+
+    <div class="menu-item">
+      <div>
+        <h2>French toast τσουρέκι</h2>
+        <p class="ingredients">Με ζάχαρη, κανέλα, creme patisserie & μέλι</p>
+      </div>
+      <div class="price">6.00 €</div>
+    </div>
+
+    <div class="menu-item">
+        <div>
+          <h2>Katsu Sando</h2>
+          <p class="ingredients">Ψωμάκι ilk bread με crispy κοτόπουλο, σαλάτα λάχανο & κόλιανδρο, karashi mustard & BBQ sauce</p>
+        </div>
+        <div class="price">8.00 €</div>
+    </div>
+
+    <div class="menu-item">
+      <div>
+        <h2>Carrot Cake</h2>
+        <p class="ingredients">Ατομικό</p>
+      </div>
+      <div class="price">5.00 €</div>
+    </div>
+
+    <div class="menu-item">
+        <div>
+          <h2>Burnt basque cheesecake</h2>
+          <p class="ingredients">Ατομικό</p>
+        </div>
+        <div class="price">3.50 €</div>
+    </div>
+
+    <div class="menu-item">
+      <div>
+        <h2>Banana bread</h2>
+        <p class="ingredients">Ατομικό</p>
+      </div>
+      <div class="price">3.50 €</div>
+    </div>
+
+    <div class="menu-item">
+        <div>
+          <h2>Chickpeas</h2>
+          <p class="ingredients">Σαλάτα με ρεβύθια, πολύχρωμα ντοματίνια, φρέσκο κρεμμύδι, άνηθο, παξιμάδια χαρουπιού & dressing μελιού</p>
+        </div>
+        <div class="price">6.00 €</div>
+    </div>
+
+    <div class="menu-item">
+      <div>
+        <h2>Στραπατσάδα</h2>
+        <p class="ingredients">Αυγά στραπατσάδα με homemade σάλτσα τομάτας, τυρί βερδικουσιώτικο & pesto θυμαριού. Συνοδεύεται από φρέσκο ζυμωτό ψωμί</p>
+      </div>
+      <div class="price">5.00 €</div>
+    </div>
+
+    <div class="menu-item">
+        <div>
+          <h2>Burnt basque cheesecake</h2>
+          <p class="ingredients">Ατομικό</p>
+        </div>
+        <div class="price">3.50 €</div>
+    </div>
+
+    <div>
+        <h1 class="category-title">Smoothies</h1>
+    </div>
+
+    <div class="menu-item">
+      <div>
+        <h2>Smoothie Purple Rain</h2>
+        <p class="ingredients">Με γάλα αμυγδάλου, κόκκινα φρούτα, ανανά, μπανάνα</p>
+      </div>
+      <div class="price">5.00 €</div>
+    </div>
+
+    <div>
+        <h1 class="category-title">Αναψυκτικά</h1>
+    </div>
+
+    <div class="menu-item">
+      <div>
+        <h2>Pepsi φιάλη 250ml</h2>
+      </div>
+      <div class="price">2.00 €</div>
+    </div>
+
+    <div class="menu-item">
+      <div>
+        <h2>Pepsi max 250ml</h2>
+      </div>
+      <div class="price">2.00 €</div>
+    </div>
+
+    <div class="menu-item">
+      <div>
+        <h2>Pepsi φιάλη 250ml</h2>
+      </div>
+      <div class="price">2.00 €</div>
+    </div>
+
+    <div class="menu-item">
+      <div>
+        <h2>ROY kombucha pure prana 330ml</h2>
+      </div>
+      <div class="price">3.20 €</div>
+    </div>
+
+    <div class="menu-item">
+      <div>
+        <h2>Three Cents pink grapfruit soda 200ml</h2>
+      </div>
+      <div class="price">2.50 €</div>
+    </div>
+
+    <div>
+        <h1 class="category-title">Μπύρες - Ποτά</h1>
+    </div>
+
+    <div class="menu-item">
+      <div>
+        <h2>Μάμος 330ml</h2>
+      </div>
+      <div class="price">3.50 €</div>
+    </div>
+
+    <div class="menu-item">
+      <div>
+        <h2>Sol φιάλη 330ml</h2>
+      </div>
+      <div class="price">3.50 €</div>
+    </div>
+
+    <div class="menu-item">
+      <div>
+        <h2>Μάμος 330ml</h2>
+        <p class="ingredients">Με βιολογικό γιαούρτι, homemade granola, μέλι & φρούτα εποχής</p>
+      </div>
+      <div class="price">3.50 €</div>
+    </div>
+
+    <div class="menu-item">
+      <div>
+        <h2>Heineken free 330ml</h2>
+      </div>
+      <div class="price">3.50 €</div>
+    </div>
+    <!-- Add more menu items as needed -->
+
+  </section>
+
+</body>
+</html>
