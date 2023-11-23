@@ -1,24 +1,10 @@
 .body {
-    background: linear-gradient(45deg, rgb(66, 57, 57) 0%, rgb(48, 46, 61) 100%);
-    color: #DA0037;
+    background: linear-gradient(45deg, rgb(97, 93, 93) 0%, rgb(46, 44, 59) 100%);
     font-family: 'Open Sans', sans-serif;
     font-size: 25px;
     letter-spacing: 2px;
   }
   
-  .about-body {
-    background-color: rgba(253,187,45,1);
-    color: #DA0037;
-    font-family: 'Open Sans', sans-serif;
-    font-size: 25px;
-    margin-top: 20px;
-    letter-spacing: 2px;
-    text-align: center;
-    box-sizing: border-box;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-  }
   
   .links {
       text-align: center;
@@ -60,6 +46,7 @@
 
   .link-moving-Element {
     text-align: center;
+    font: bold;
     font-family: 'Courier', sans-serif;
     margin-top: 20px;
     padding: 20px;
