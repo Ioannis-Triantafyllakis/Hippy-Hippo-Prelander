@@ -69,4 +69,15 @@
     80% { transform: scale(1); }
   }
   
+  footer {
+    text-align: center;
+    font-family: 'Courier', sans-serif;
+    margin-top: 20px;
+    padding: 20px;
+    width: 290px;
+    margin-left: auto;
+    margin-right: auto;
+    color:#aeacac;
+    font-size: 15px;
+  }
 
